@@ -3,5 +3,8 @@
     "@4tw/cypress-drag-drop": "^2.3.1",
     "cypress": "^15.7.1",
     "cypress-xpath": "^2.0.1"
+  },
+  "dependencies": {
+    "single-spa": "^6.0.3"
   }
 }
