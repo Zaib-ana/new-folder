@@ -25,7 +25,7 @@ const xpChartOnCanvas =
 describe('Design Studio - Artboard + Chart drag, center and resize', () => {
   beforeEach(() => {
     cy.viewport(1440, 900); // stable layout
-    cy.visit('https://stg.platform.creatingly.com/apps/');
+    cy.visit('https://stg.platform.creatingly.com/');
   });
 
   it('adds artboard, adds chart, centers and resizes chart to fit artboard', () => {
