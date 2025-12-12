@@ -2,6 +2,9 @@ const { defineConfig } = require("cypress");
 
 module.exports = defineConfig({
   e2e: {
-    supportFile: "cypress/support/commands.js"
+    // if you want to disable support file
+    supportFile: false,
+    // or use default:
+    // supportFile: "cypress/support/e2e.js"
   }
 });
