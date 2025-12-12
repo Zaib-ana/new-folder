@@ -1,9 +1,8 @@
-
-
 // cypress/support/commands.js
 
 // Import cypress-drag-drop plugin
 import '@4tw/cypress-drag-drop';
+import 'cypress-xpath';  // <-- added semicolon
 
 /**
  * Optional login – only if your app needs it.
